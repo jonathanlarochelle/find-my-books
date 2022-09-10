@@ -1,4 +1,4 @@
-# FindMyBooks
+# FindMyBooks v0.1
 Ever found yourself in front of a 100+ books to-read list on Goodreads, without knowing which one is available from your local library?
 FindMyBooks allows you to where all of those books are available.
 
@@ -24,16 +24,19 @@ python find_my_books MY_GOODREADS_LIBRARY.csv
 ```
 
 ### Output file
+*-o, --output OUTPUT_FILE.csv*
+
 Optional, path to desired output file to be created.
 Default: Goodreads library file with "_output" suffix.
-Example:
-```Python
-python find_my_books MY_GOODREADS_LIBRARY.csv -o OUTPUT_FILE.csv
-```
+
+### Debug
+*-d, --debug*
+
+Activate debug mode, which displays more information in the console.
 
 ## Contributing
 ### New libraries
-Everyone is encourage to add libraries via the libraries.json file. Please create one PR with all the libraries you wish to add.
+Everyone is encouraged to add libraries via the libraries.json file. Please create one PR with all the libraries you wish to add.
 ### New features
 New features are always welcome. If the feature is substantial, please create an issue first, so that it can be discussed. If the feature is minor, you can directly create a PR and we'll look at it.
 

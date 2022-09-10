@@ -2,12 +2,12 @@
   "libraries": [
     {"name": "BANQ (Overdrive)",
     "url": "https://banq.overdrive.com/search/title?query={TITLE}&creator={AUTHOR}&mediaType=ebook&sortBy=newlyadded",
-    "response_size_threshold":  95000},
+    "response_length_threshold":  95000},
     {"name": "Ville de Québec (Prêt Numérique)",
     "url": "https://quebec.pretnumerique.ca/resources?utf8=%E2%9C%93&keywords={TITLE}&author={AUTHOR}&narrator=&publisher=&collection_title=&issued_on_range=&language=&audience=&category_standard=thema&category=&nature=ebook&medium=",
-    "response_size_threshold":  8000},
+    "response_length_threshold":  8000},
     {"name": "Kobo Plus",
     "url": "https://www.kobo.com/ca/en/search?query=query&fcmedia=Book~BookSubscription&nd=true&ac=1&ac.author={AUTHOR}&ac.title={TITLE}&sort=PublicationDateDesc&sortchange=1",
-    "response_size_threshold":  250000}
+    "response_length_threshold":  250000}
   ]
 }

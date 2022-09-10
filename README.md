@@ -25,7 +25,7 @@ python find_my_books MY_GOODREADS_LIBRARY.csv
 
 ### Output file
 Optional, path to desired output file to be created.
-Default: Goodreads library file with "_OUTPUT" suffix.
+Default: Goodreads library file with "_output" suffix.
 Example:
 ```Python
 python find_my_books MY_GOODREADS_LIBRARY.csv -o OUTPUT_FILE.csv
